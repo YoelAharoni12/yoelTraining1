@@ -3,17 +3,73 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
-    <!--    <link rel="stylesheet" type="text/css" href="index.css">-->
+    <link rel="stylesheet" type="text/css" href="./index.css">
     <script src="../../semantic/dist/semantic.min.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<div class="nav-bar-container">
-    <div class="ui small image">
-        <img src="../assets/black_logo.png">
-        <div></div>
+
+<div class="nav-bar">
+    <div class="ui padded grid">
+        <div class="row logo">
+            <div class="two wide column">
+                <a href="index.html" class="ui small image">
+                    <img src="../assets/white_logo.png">
+                </a>
+            </div>
+            <div class="eight wide column search-bar">
+                <div class="ui fluid icon input">
+                    <input type="text" placeholder="Search a very wide input...">
+                    <button class="ui icon primary button">
+                        <i class="search icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="right floated two wide column">
+                <div class="ui inverted text menu">
+                    <a class="browse item">
+                        Browse Courses
+                        <i class="dropdown icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="two wide column">
+                <div class="ui flowing basic admission popup">
+                    <div class="ui two column relaxed divided grid">
+                        <div class="column">
+                            <h4 class="ui header">
+                                Your
+                                account
+                            </h4>
+                            <div class="ui link list">
+                                <a class="item">SIGN IN </a>
+                                <a class="item">SIGN UP</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h4 class="ui header">Your Lists</h4>
+                            <div class="ui link list">
+                                <a class="item">Create new lists</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="ui orange inverted header">
+                    (2)
+                </h3>
+                <i class="inverted large shopping cart icon"></i>
+                <div class="item">
+                    <div class="content">
+                        cart
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
 </body>
 </html>
