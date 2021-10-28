@@ -5,11 +5,13 @@
     <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="./index.css">
     <script src="../../semantic/dist/semantic.min.js"></script>
+    <!--    <script src="../scripts/Jquey.js"></script>-->
+
+
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-
 <div class="nav-bar">
     <div class="ui padded grid">
         <div class="row logo">
@@ -27,15 +29,16 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="cart-row bottom aligned row">
             <div class="right floated two wide column">
-                <div class="ui inverted text menu">
+                <div class="ui inverted text menu account-list ">
                     <a class="browse item">
-                        Browse Courses
+                        Account&Lists
                         <i class="dropdown icon"></i>
                     </a>
                 </div>
             </div>
+
             <div class="two wide column">
                 <div class="ui flowing basic admission popup">
                     <div class="ui two column relaxed divided grid">
@@ -57,19 +60,84 @@
                         </div>
                     </div>
                 </div>
+
                 <h3 class="ui orange inverted header">
                     (2)
                 </h3>
-                <i class="inverted large shopping cart icon"></i>
                 <div class="item">
                     <div class="content">
-                        cart
+                        <i class="inverted large shopping cart icon">cart</i>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
+<!--    <div class="ui menu">-->
+<!--        <a class="browse item">-->
+<!--            Browse-->
+<!--            <i class="dropdown icon"></i>-->
+<!--        </a>-->
+<!--        <div class="ui fluid popup top left transition hidden">-->
+<!--            <div class="ui four column relaxed divided grid">-->
+<!--                <div class="column">-->
+<!--                    <h4 class="ui header">Fabrics</h4>-->
+<!--                    <div class="ui link list">-->
+<!--                        <a class="item">Cashmere</a>-->
+<!--                        <a class="item">Linen</a>-->
+<!--                        <a class="item">Cotton</a>-->
+<!--                        <a class="item">Viscose</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="column">-->
+<!--                    <h4 class="ui header">Size</h4>-->
+<!--                    <div class="ui link list">-->
+<!--                        <a class="item">Small</a>-->
+<!--                        <a class="item">Medium</a>-->
+<!--                        <a class="item">Large</a>-->
+<!--                        <a class="item">Plus Sizes</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="column">-->
+<!--                    <h4 class="ui header">Colors</h4>-->
+<!--                    <div class="ui link list">-->
+<!--                        <a class="item">Neutrals</a>-->
+<!--                        <a class="item">Brights</a>-->
+<!--                        <a class="item">Pastels</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="column">-->
+<!--                    <h4 class="ui header">Types</h4>-->
+<!--                    <div class="ui link list">-->
+<!--                        <a class="item">Knitwear</a>-->
+<!--                        <a class="item">Outerwear</a>-->
+<!--                        <a class="item">Pants</a>-->
+<!--                        <a class="item">Shoes</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <a class="item">-->
+<!--            <i class="cart icon"></i>-->
+<!--            Checkout-->
+<!--        </a>-->
+<!--    </div>-->
+
+
+</div>
+<script>
+    console.log($('.menu'));
+    $('.menu .browse')
+        .popup({
+            inline: true,
+            hoverable: false,
+            position: 'bottom left',
+            delay: {
+                show: 300,
+                hide: 800
+            }
+        })
+    ;
+</script>
 </body>
 </html>

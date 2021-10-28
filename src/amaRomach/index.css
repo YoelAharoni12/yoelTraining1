@@ -4,4 +4,10 @@
 .content {
   color: #FFFFFf !important;
 }
+.cart-row {
+  padding: 0 !important;
+}
+.account-list {
+  margin: 0!important;
+}
 /*# sourceMappingURL=index.css.map */
