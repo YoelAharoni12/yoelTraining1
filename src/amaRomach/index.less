@@ -1,3 +1,10 @@
+@padding: 0 !important;
+@padding-bottom:4%;
+@padding-top:1%;
+body{
+  font-family: 'Arial';
+}
+
 .nav-bar {
   background-color: #000000;
 }
@@ -7,8 +14,26 @@
 }
 
 .cart-row {
-  padding: 0 !important;
+  padding:@padding ;
 }
 .account-list{
+  margin: 0!important
+}
+.cart-items{
+  padding: @padding;
+}
+.account-options{
   margin: 0!important;
+
+}
+
+///cart page/
+.page-title{
+  padding-top:@padding-top!important; ;
+}
+.cart-description{
+  padding-bottom: @padding-bottom !important;
+}
+.shekel-icon{
+  padding-bottom: @padding-bottom !important;
 }

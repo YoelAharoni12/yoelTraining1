@@ -1,3 +1,6 @@
+body {
+  font-family: 'Arial';
+}
 .nav-bar {
   background-color: #000000;
 }
@@ -8,6 +11,21 @@
   padding: 0 !important;
 }
 .account-list {
+  margin: 0 !important;
+}
+.cart-items {
+  padding: 0 !important;
+}
+.account-options {
   margin: 0!important;
+}
+.page-title {
+  padding-top: 1% !important;
+}
+.cart-description {
+  padding-bottom: 4% !important;
+}
+.shekel-icon {
+  padding-bottom: 4% !important;
 }
 /*# sourceMappingURL=index.css.map */

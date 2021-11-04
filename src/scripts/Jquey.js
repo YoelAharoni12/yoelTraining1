@@ -1,11 +1,12 @@
-$('.account-list .menu .browse')
+console.log($('.menu .browse'));
+$(' .menu .browse')
     .popup({
         inline: true,
         hoverable: true,
         position: 'bottom left',
         delay: {
-            show: 300,
-            hide: 800
+            show: 300
         }
     });
-$('.ui.dropdown').dropdown();
+
+$('.ui.selection.dropdown').dropdown({'set selected': 1 });
