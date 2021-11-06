@@ -9,4 +9,6 @@ $(' .menu .browse')
         }
     });
 
-$('.ui.selection.dropdown').dropdown({'set selected': 1 });
+$('.ui.selection.dropdown')
+    .dropdown()
+;
