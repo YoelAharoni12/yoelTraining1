@@ -17,7 +17,10 @@ body {
   padding: 0 !important;
 }
 .account-options {
-  margin: 0!important;
+  margin: 0 !important;
+}
+.cards {
+  padding: 3%;
 }
 .page-title {
   padding-top: 1% !important;
