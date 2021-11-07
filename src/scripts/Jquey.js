@@ -1,4 +1,3 @@
-console.log($('.menu .browse'));
 $(' .menu .browse')
     .popup({
         inline: true,
@@ -12,3 +11,5 @@ $(' .menu .browse')
 $('.ui.selection.dropdown')
     .dropdown()
 ;
+
+// $('.ui.card').dimmer({opacity:30}).dimmer({on:'hover'});
