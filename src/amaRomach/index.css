@@ -1,26 +1,33 @@
-body {
-  font-family: 'Arial';
-}
 .nav-bar {
   background-color: #000000;
-}
-.content {
-  color: #FFFFFf !important;
-}
-.cart-row {
-  padding: 0 !important;
-}
-.account-list {
-  margin: 0 !important;
-}
-.cart-items {
-  padding: 0 !important;
 }
 .account-options {
   margin: 0 !important;
 }
+.cart-button-navbar {
+  width: 40%;
+  border: thin solid transparent;
+}
+.border-item {
+  border: thin solid transparent;
+}
+.border-item:hover {
+  border-style: solid solid hidden solid;
+  border-color: #808080;
+  border-width: thin;
+}
+.cart-items {
+  padding: 0 !important;
+}
+.account-box {
+  margin-top: 5% !important;
+  margin-left: 60% !important;
+}
 .cards {
   padding: 3%;
+}
+.ui .card:hover .card-image {
+  filter: opacity(80%);
 }
 .page-title {
   padding-top: 1% !important;

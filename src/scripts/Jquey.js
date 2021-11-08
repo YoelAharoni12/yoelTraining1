@@ -12,4 +12,4 @@ $('.ui.selection.dropdown')
     .dropdown()
 ;
 
-// $('.ui.card').dimmer({opacity:30}).dimmer({on:'hover'});
+// $('.ui.card').css("background-color","rgba(250,250,50,0.8)").dimmer({on:'hover'});

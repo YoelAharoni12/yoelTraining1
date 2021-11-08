@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="nav-bar">
-    <div class="ui padded grid">
+    <div class="ui padded  grid">
         <div class="row logo">
             <div class="two wide column">
                 <div class="two wide column">
@@ -31,33 +31,34 @@
                 </div>
             </div>
         </div>
+
         <div class="bottom aligned row cart-items">
-            <div class="right floated three wide column ">
-                <div class="">
-                    <div class="ui inverted text menu account-options">
-                        <a class="browse item">
-                            Account&List
-                            <i class="dropdown icon"></i>
-                        </a>
-                        <div class="ui fluid popup top left transition">
-                            <div class="ui four column divided grid">
-                                <div class="seven wide column">
-                                    <p class="ui medium header">
-                                        Your
-                                        account
-                                    </p>
-                                    <div class="ui link list">
-                                        <a class="ui medium item">SIGN IN</a>
-                                        <a class="ui medium item">SIGN UP</a>
-                                    </div>
+            <div class="right floated three wide column">
+                <div class="ui inverted text menu account-options ">
+
+                    <a class="border-item right aligned browse item " id="account-menu">
+                        Account&List
+                        <i class="dropdown icon"></i>
+                    </a>
+
+                    <div class="ui fluid popup bottom center transition " data-variation="basic">
+                        <div class="ui four column divided grid">
+                            <div class="eight wide column">
+                                <p class="ui medium header">
+                                    Your
+                                    account
+                                </p>
+                                <div class="ui link list">
+                                    <a class="ui medium item">SIGN IN</a>
+                                    <a class="ui medium item">SIGN UP</a>
                                 </div>
-                                <div class="eight wide column">
-                                    <p class="ui medium header">
-                                        Your Lists
-                                    </p>
-                                    <div class="ui link list">
-                                        <a class="item">Create new lists</a>
-                                    </div>
+                            </div>
+                            <div class="eight wide column">
+                                <p class="ui medium header">
+                                    Your Lists
+                                </p>
+                                <div class="ui link list">
+                                    <a class="ui medium item">Create new lists</a>
                                 </div>
                             </div>
                         </div>
@@ -65,39 +66,41 @@
                 </div>
             </div>
             <div class="two wide column">
-                <a href="cart.html">
-                    <div class="item column">
-                        <h3 class="ui orange inverted header">
-                            (2)
-                        </h3>
-                        <div class="content">
-                            <i class="inverted large shopping cart icon">cart</i>
+                <div class="cart-button-navbar border-item">
+                    <a href="cart.html">
+                        <div class="item column border-item">
+                            <h3 class="ui orange inverted header">
+                                (2)
+                            </h3>
+                            <div class="content">
+                                <i class="inverted large shopping cart icon">cart</i>
+                            </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="ui four cards">
-    <div class="ui stretched grid">
+    <div class="ui stretched very relaxed grid">
         <div class="four wide column">
             <div class="ui card">
-                <div class="medium image">
-                    <img src="../assets/oatmeal.jpg">
+                <div class="image">
+                    <img class="card-image " src="../assets/oatmeal.jpg">
                 </div>
                 <div class="content">
                     <a class="header">Oatmeal</a>
 
                     <div class="description">
-                        Kristy is an art director living in New York.
+                        <p>Hot and fluffy oatmeal & protein powder cake</p>
                     </div>
                 </div>
                 <div class="extra">
 
                     <div>
-                        <i class="small shekel sign icon"></i><span class="">1200</span>
+                        <i class="small shekel sign icon"></i><span class="">330.00</span>
                     </div>
 
                     <div class="ui yellow rating disabled">
@@ -116,19 +119,19 @@
         <div class="four wide column">
             <div class="ui card">
                 <div class="image">
-                    <img src="../assets/ws.png">
+                    <img class="card-image" src="../assets/ws.png">
                 </div>
                 <div class="content">
-                    <a class="header">Oatmeal</a>
+                    <a class="header">WS licence</a>
 
                     <div class="description">
-                        Kristy is an art director living in New York.
+                        <p> Rare WS license. No need for military email</p>
                     </div>
                 </div>
                 <div class="extra">
 
                     <div>
-                        <i class="small shekel sign icon"></i><span class="">1200</span>
+                        <i class="small shekel sign icon"></i><span class="">200.00</span>
                     </div>
 
                     <div class="ui yellow rating disabled">
@@ -147,19 +150,19 @@
         <div class="four wide column">
             <div class="ui card">
                 <div class="image">
-                    <img src="../assets/coconut.png">
+                    <img class="card-image" src="../assets/coconut.png">
                 </div>
                 <div class="content">
-                    <a class="header">Oatmeal</a>
+                    <a class="header">Coconut</a>
 
                     <div class="description">
-                        Kristy is an art director living in New York.
+                        <p>Good coconut to make oil for your beard</p>
                     </div>
                 </div>
                 <div class="extra">
 
                     <div>
-                        <i class="small shekel sign icon"></i><span class="">1200</span>
+                        <i class="small shekel sign icon"></i><span class="">100.00</span>
                     </div>
                     <div class="ui yellow rating disabled">
                         <i class=" star icon active"></i>
@@ -179,19 +182,19 @@
         <div class="four wide column">
             <div class="ui card">
                 <div class="image">
-                    <img src="../assets/beard.jpg">
+                    <img class="card-image" src="../assets/beard.jpg">
                 </div>
                 <div class="content">
-                    <a class="header">Oatmeal</a>
+                    <a class="header">Beard exempt</a>
 
                     <div class="description">
-                        Kristy is an art director living in New York.
+                        Your very own license to grow beard
                     </div>
                 </div>
                 <div class="extra">
 
                     <div>
-                        <i class="small shekel sign icon"></i><span class="">1200</span>
+                        <i class="small shekel sign icon"></i><span class="">777.00</span>
                     </div>
 
                     <div class="ui yellow rating disabled">
@@ -210,19 +213,19 @@
         <div class="four wide column">
             <div class="ui card">
                 <div class="image">
-                    <img src="../assets/freedom.png">
+                    <img class="card-image" src="../assets/freedom.png">
                 </div>
                 <div class="content">
-                    <a class="header">Oatmeal</a>
+                    <a class="header">A day off</a>
 
                     <div class="description">
-                        Kristy is an art director living in New York.
+                        <p>1 day off work</p>
                     </div>
                 </div>
                 <div class="extra">
 
                     <div>
-                        <i class="small shekel sign icon"></i><span class="">1200</span>
+                        <i class="small shekel sign icon"></i><span class="">1.000.000.00</span>
                     </div>
 
                     <div class="ui yellow rating disabled">
@@ -241,13 +244,13 @@
         <div class="four wide column">
             <div class="ui card">
                 <div class="image">
-                    <img src="../assets/js-book.png">
+                    <img class="card-image" src="../assets/js-book.png">
                 </div>
                 <div class="content">
                     <a class="header">Oatmeal</a>
 
                     <div class="description">
-                        Kristy is an art director living in New York.
+                        <p>Digital javascript book to start coding your first js website</p>
                     </div>
                 </div>
                 <div class="extra">
