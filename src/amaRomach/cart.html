@@ -3,7 +3,8 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="../style/index.css">
+    <link rel="stylesheet" type="text/css" href="../style/cart.css">
     <script src="../../semantic/dist/semantic.min.js"></script>
     <meta charset="UTF-8">
     <title>cartPage</title>
@@ -11,7 +12,7 @@
 
 <body>
 <div class="nav-bar">
-    <div class="ui padded grid">
+    <div class="ui padded  grid">
         <div class="row logo">
             <div class="two wide column">
                 <div class="two wide column">
@@ -24,6 +25,7 @@
                 <div class="eight wide column search-bar">
                     <div class="ui fluid icon input">
                         <input type="text" placeholder="Search a very wide input...">
+
                         <button class="ui icon primary button">
                             <i class="search icon"></i>
                         </button>
@@ -31,32 +33,30 @@
                 </div>
             </div>
         </div>
-        <div class="bottom aligned row cart-items">
-            <div class="right floated three wide column ">
-                <div class="">
-                    <div class="ui inverted text menu account-options">
-                        <a class="browse item">
-                            Account&List
-                            <i class="dropdown icon"></i>
-                        </a>
-                        <div class="ui fluid popup top left transition">
-                            <div class="ui four column divided grid">
-                                <div class="seven wide column">
-                                    <p class="ui medium header">
-                                        Your
-                                        account
-                                    </p>
-                                    <div class="ui link list">
-                                        <a class="ui medium item">SIGN IN</a>
-                                        <a class="ui medium item">SIGN UP</a>
+
+        <div class="four column row cart-options-row">
+            <div class="bottom aligned  right aligned right floated column">
+                <div class="ui grid account-grid ">
+                    <div class="eight wide column bottom aligned account-options ">
+                        <div class="ui floating dropdown">
+                            <div class="ui small header inverted account-box border-item">
+                                Account&Lists
+                                <i class="small dropdown  icon"></i>
+                            </div>
+                            <div class="ui menu two column divided grid transition hidden">
+                                <div class="two column row">
+                                    <div class="column">
+                                        <div class="ui small header">Your Account</div>
+                                        <div class="ui link list">
+                                            <a class="item">SIGN IP</a>
+                                            <a class="item">SIGN UP</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="eight wide column">
-                                    <p class="ui medium header">
-                                        Your Lists
-                                    </p>
-                                    <div class="ui link list">
-                                        <a class="item">Create new lists</a>
+                                    <div class="column">
+                                        <div class="ui small header">Your Lists</div>
+                                        <div class="ui link list">
+                                            <a class="item">Create New List</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -64,17 +64,20 @@
                     </div>
                 </div>
             </div>
+
             <div class="two wide column">
-                <a href="cart.html">
-                    <div class="item column">
-                        <h3 class="ui orange inverted header">
-                            (2)
-                        </h3>
-                        <div class="content">
-                            <i class="inverted large shopping cart icon">cart</i>
+                <div class="cart-button-box border-item">
+                    <a href="cart.html">
+                        <div class="item column border-item">
+                            <h3 class="ui orange inverted header">
+                                (2)
+                            </h3>
+                            <div class="content">
+                                <i class="inverted large shopping cart icon">cart</i>
+                            </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

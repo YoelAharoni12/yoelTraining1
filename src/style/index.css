@@ -1,0 +1,38 @@
+.nav-bar {
+  background-color: #000000;
+}
+.cart-options-row {
+  padding: 0 !important;
+}
+.account-grid {
+  display: flex;
+  justify-content: flex-end;
+}
+.account-options {
+  padding: 0 !important;
+  margin-bottom: 3%!important;
+}
+.account-box {
+  margin: 0!important;
+}
+.cart-button-box {
+  width: 40%;
+}
+.border-item {
+  border: thin solid transparent;
+}
+.border-item:hover {
+  border-style: solid solid hidden solid;
+  border-color: #808080;
+  border-width: thin;
+}
+.cart-items {
+  padding: 0 !important;
+}
+.cards {
+  padding: 3%;
+}
+.ui .card:hover .card-image {
+  filter: opacity(80%);
+}
+/*# sourceMappingURL=index.css.map */

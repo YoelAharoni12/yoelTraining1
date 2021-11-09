@@ -1,4 +1,5 @@
-$(' .menu .browse')
+console.log($('.ui .menu'))
+$(' .ui .menu')
     .popup({
         inline: true,
         hoverable: true,
@@ -7,7 +8,9 @@ $(' .menu .browse')
             show: 300
         }
     });
-
+$('.ui.dropdown')
+    .dropdown({ on: 'hover' })
+;
 $('.ui.selection.dropdown')
     .dropdown()
 ;

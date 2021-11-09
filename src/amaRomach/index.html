@@ -3,15 +3,16 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="../style/index.css">
     <script src="../../semantic/dist/semantic.min.js"></script>
     <meta charset="UTF-8">
     <title>amaRomach</title>
 
 </head>
+
 <body>
 <div class="nav-bar">
-    <div class="ui padded  grid">
+    <div class="ui padded grid">
         <div class="row logo">
             <div class="two wide column">
                 <div class="two wide column">
@@ -32,41 +33,39 @@
             </div>
         </div>
 
-        <div class="bottom aligned row cart-items">
-            <div class="right floated three wide column">
-                <div class="ui inverted text menu account-options ">
-
-                    <a class="border-item right aligned browse item " id="account-menu">
-                        Account&List
-                        <i class="dropdown icon"></i>
-                    </a>
-
-                    <div class="ui fluid popup bottom center transition " data-variation="basic">
-                        <div class="ui four column divided grid">
-                            <div class="eight wide column">
-                                <p class="ui medium header">
-                                    Your
-                                    account
-                                </p>
-                                <div class="ui link list">
-                                    <a class="ui medium item">SIGN IN</a>
-                                    <a class="ui medium item">SIGN UP</a>
-                                </div>
+        <div class="four column row cart-options-row">
+            <div class="bottom aligned  right aligned right floated column">
+                <div class="ui grid account-grid ">
+                    <div class="eight wide column bottom aligned account-options ">
+                        <div class="ui floating dropdown">
+                            <div class="ui small header inverted account-box border-item">
+                                Account&Lists
+                                <i class="small dropdown  icon"></i>
                             </div>
-                            <div class="eight wide column">
-                                <p class="ui medium header">
-                                    Your Lists
-                                </p>
-                                <div class="ui link list">
-                                    <a class="ui medium item">Create new lists</a>
+                            <div class="ui menu two column divided grid transition hidden">
+                                <div class="two column row">
+                                    <div class="column">
+                                        <div class="ui small header">Your Account</div>
+                                        <div class="ui link list">
+                                            <a class="item">SIGN IP</a>
+                                            <a class="item">SIGN UP</a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui small header">Your Lists</div>
+                                        <div class="ui link list">
+                                            <a class="item">Create New List</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="two wide column">
-                <div class="cart-button-navbar border-item">
+                <div class="cart-button-box border-item">
                     <a href="cart.html">
                         <div class="item column border-item">
                             <h3 class="ui orange inverted header">
@@ -98,11 +97,9 @@
                     </div>
                 </div>
                 <div class="extra">
-
                     <div>
                         <i class="small shekel sign icon"></i><span class="">330.00</span>
                     </div>
-
                     <div class="ui yellow rating disabled">
                         <i class=" star icon active"></i>
                         <i class=" star icon active"></i>
@@ -123,17 +120,14 @@
                 </div>
                 <div class="content">
                     <a class="header">WS licence</a>
-
                     <div class="description">
                         <p> Rare WS license. No need for military email</p>
                     </div>
                 </div>
                 <div class="extra">
-
                     <div>
                         <i class="small shekel sign icon"></i><span class="">200.00</span>
                     </div>
-
                     <div class="ui yellow rating disabled">
                         <i class=" star icon active"></i>
                         <i class=" star icon active"></i>
@@ -154,13 +148,11 @@
                 </div>
                 <div class="content">
                     <a class="header">Coconut</a>
-
                     <div class="description">
                         <p>Good coconut to make oil for your beard</p>
                     </div>
                 </div>
                 <div class="extra">
-
                     <div>
                         <i class="small shekel sign icon"></i><span class="">100.00</span>
                     </div>
@@ -171,7 +163,6 @@
                         <i class=" star icon"></i>
                         <i class=" star icon"></i>
                     </div>
-
                     <div class="ui yellow disabled rating" data-rating="3" data-max-rating="5"></div>
                     <div>
                         <button class="ui primary button right floated">Add to cart</button>
@@ -192,11 +183,9 @@
                     </div>
                 </div>
                 <div class="extra">
-
                     <div>
                         <i class="small shekel sign icon"></i><span class="">777.00</span>
                     </div>
-
                     <div class="ui yellow rating disabled">
                         <i class=" star icon active"></i>
                         <i class=" star icon active"></i>
@@ -217,17 +206,14 @@
                 </div>
                 <div class="content">
                     <a class="header">A day off</a>
-
                     <div class="description">
                         <p>1 day off work</p>
                     </div>
                 </div>
                 <div class="extra">
-
                     <div>
                         <i class="small shekel sign icon"></i><span class="">1.000.000.00</span>
                     </div>
-
                     <div class="ui yellow rating disabled">
                         <i class=" star icon active"></i>
                         <i class=" star icon active"></i>
@@ -248,17 +234,14 @@
                 </div>
                 <div class="content">
                     <a class="header">Oatmeal</a>
-
                     <div class="description">
                         <p>Digital javascript book to start coding your first js website</p>
                     </div>
                 </div>
                 <div class="extra">
-
                     <div>
                         <i class="small shekel sign icon"></i><span class="">1200</span>
                     </div>
-
                     <div class="ui yellow rating disabled">
                         <i class=" star icon active"></i>
                         <i class=" star icon active"></i>
@@ -274,8 +257,6 @@
         </div>
     </div>
 </div>
-
-
 <script src="../scripts/Jquey.js"></script>
 </body>
 </html>
