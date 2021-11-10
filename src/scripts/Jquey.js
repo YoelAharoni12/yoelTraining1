@@ -1,4 +1,3 @@
-console.log($('.ui .menu'))
 $(' .ui .menu')
     .popup({
         inline: true,
@@ -15,4 +14,3 @@ $('.ui.selection.dropdown')
     .dropdown()
 ;
 
-// $('.ui.card').css("background-color","rgba(250,250,50,0.8)").dimmer({on:'hover'});
