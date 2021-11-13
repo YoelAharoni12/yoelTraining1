@@ -1,14 +1,15 @@
-@import "index";
+@padding: 0 !important;
+@padding-bottom: 4% !important;
+@padding-top: 1% !important;
 
 .page-title {
   padding-top: @padding-top;
-  color: yellow;
 }
 
 .cart-description {
   padding-bottom: @padding-bottom;
 }
 
-.shekel-icon {
-  padding-bottom: @padding-bottom;
-}
+.shekel-label::after{
+   content: "\20AA" !important;
+ }

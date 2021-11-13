@@ -4,5 +4,5 @@
 .idea
 /temp.html
 /semantic/dist/
-*.css
+
 *.map
