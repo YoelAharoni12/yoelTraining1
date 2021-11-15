@@ -1,13 +1,11 @@
-@padding: 0 !important;
-@padding-bottom: 4% !important;
-@padding-top: 1% !important;
+@padding: 0;
 
 .nav-bar {
   background-color: #000000;
 }
 
 .cart-options-row {
-  padding: @padding;
+  padding: @padding !important;
 
 }
 
@@ -17,7 +15,7 @@
 }
 
 .account-options {
-  padding: @padding;
+  padding: @padding !important;
   margin-bottom: 3% !important;
 }
 
@@ -25,8 +23,17 @@
   margin: 0 !important;
 }
 
-.orange-color {
+.cart-header {
   color: #FF4500 !important;
+
+  &:before {
+    content: '(';
+  }
+
+  &:after {
+    content: ')';
+  }
+
 }
 
 .border-item {
@@ -42,9 +49,11 @@
 .cart-button-box {
   width: 40%;
 }
-.cards-container{
+
+.cards-container {
   width: 100%;
 }
+
 .cards {
   padding: 3%;
 }
