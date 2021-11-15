@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../home/index.css">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <script src="../../semantic/dist/semantic.min.js"></script>
+    <meta charset="UTF-8">
+    <title>cartPage</title>
+</head>
+
+<body>
+<div class="nav-bar">
+    <div class="ui padded  grid">
+        <div class="row logo">
+            <div class="two wide column">
+                <div class="two wide column">
+                    <a href="../home/index.html" class="ui small image">
+                        <img src="../assets/white_logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <div class="eight wide column search-bar">
+                    <div class="ui fluid icon input">
+                        <input type="text" placeholder="Search a very wide input...">
+                        <button class="ui icon romach button">
+                            <i class="search icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="four column row cart-options-row">
+            <div class="bottom aligned  right aligned right floated column">
+                <div class="ui grid account-grid ">
+                    <div class="eight wide column bottom aligned account-options ">
+                        <div class="ui floating dropdown">
+                            <div class="ui small header inverted account-box border-item">
+                                Account&Lists
+                                <i class="small dropdown  icon"></i>
+                            </div>
+                            <div class="ui menu two column divided grid transition hidden">
+                                <div class="two column row">
+                                    <div class="column">
+                                        <div class="ui small header">Your Account</div>
+                                        <div class="ui link list">
+                                            <a class="item">SIGN IP</a>
+                                            <a class="item">SIGN UP</a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui small header">Your Lists</div>
+                                        <div class="ui link list">
+                                            <a class="item">Create New List</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two wide column">
+                <div class="cart-button-box border-item">
+                    <a href="cart.html">
+                        <div class="item column border-item">
+                            <h3 class="ui orange inverted header">
+                                (2)
+                            </h3>
+                            <div class="content">
+                                <i class="inverted large shopping cart icon">cart</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ui container">
+    <div class="ui vertically divided grid">
+        <div class="row">
+            <div class="page-title middle aligned column">
+                <h2>Your Shopping Cart</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <div class="ui medium image">
+                    <img src="../assets/coconut.png">
+                </div>
+            </div>
+            <div class="eight wide column">
+                <div class="item">
+                    <h3 class="header">Coconut</h3>
+                    <div class="cart-description">
+                        <p>Good coconut to make oil for your bread</p>
+                    </div>
+
+                    <div class="meta">
+                        <span class="shekel-label"></span><span class="">1200</span>
+                    </div>
+                </div>
+                <div class="ui selection dropdown">
+                    <input name="gender" type="hidden" value="1">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Select a value</div>
+                    <div class="menu">
+                        <div class="item" data-value="1">1</div>
+                        <div class="item" data-value="2">2</div>
+                        <div class="item" data-value="3">3</div>
+                        <div class="item" data-value="4">4</div>
+                        <div class="item" data-value="5">5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right floated column">
+                <i class="red large times link icon"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <div class="ui medium image">
+                    <img src="../assets/js-book.png">
+                </div>
+            </div>
+            <div class="eight wide column">
+                <div class="item  ">
+                    <h3 class="header">JS book for beginners</h3>
+                    <div class="cart-description">
+                        <p>Digital javascript book to start coding your first js website</p>
+                    </div>
+                    <div class="meta">
+                        <span class="shekel-label"></span><span class="">1200</span>
+                    </div>
+                </div>
+                <div class="ui transparent large input">
+                    <label>e:</label>
+                    <input type="number" placeholder="amount" min="0">
+                </div>
+            </div>
+            <div class="right floated column">
+                <i class="red large times link icon"></i>
+            </div>
+        </div>
+        <div>
+            <p>Total price: </p>
+            <span class="shekel-label"></span><span class="">1200</span>
+        </div>
+        <div class="row checkout-buttons">
+            <div class="right floated five wide column">
+                <button class="ui small romach button">
+                    Continue shopping
+                </button>
+                <button class="ui right labeled button secondary romach icon button">
+                    <i class="ui bordered inverted black cart icon"></i>
+                    checkout
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/scripts/jquery.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.ui.romach {
+  background-image: linear-gradient(center top , #F7F8FA, #E7E9EC) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.ui.romach.button {
+  color: #9c1a1a;
+  border: 1px solid;
+  border-color: #000000 #AA8326 #000000;
+}
