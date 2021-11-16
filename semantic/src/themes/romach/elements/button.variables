@@ -1,0 +1,12 @@
+/*-------------------
+   Button Variables
+--------------------*/
+
+/* Button Variables */
+@black: #444C55;
+@orange: yellow;
+@romachColor:#FF4500
+@backgroundColor: @orange;
+@primaryColor: @orange;
+@secondaryColor: #FF4500;
+
